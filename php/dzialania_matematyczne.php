@@ -30,6 +30,8 @@
      <fieldset>
         <legend>AD 3</legend>
         <p>Pole koła o promieniu 16 wynosi: <?php echo $r*$r*3.14; ?> jednostek kwadratowcyh</p>
+        <p>Obwód koła o promieniu 16 wynosi: <?php echo 2*3.14*$r; ?> jednostek kwadratowcyh</p>
+        <p>Pole koła o promieniu 16 wynosi: <?php echo $r*$r*3.14; ?> jednostek kwadratowcyh</p>
      </fieldset>
 </body>
 </html>
