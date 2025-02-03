@@ -20,6 +20,7 @@
 <?php foreach ($litery as $x) {
     echo '<input type="checkbox">'. $x . '';
 }?>
+
 <input id="wyslij" type="submit">
 
 
