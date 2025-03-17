@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         .input-error { border: 1px solid red; }
         form{
             background-color:lightblue;
-            padding: 5px;
+            padding: 5px;   
         }
         a{
             color: red;
