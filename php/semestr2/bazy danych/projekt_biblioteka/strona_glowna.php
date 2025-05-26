@@ -8,11 +8,11 @@
 </head>
 <body>
 <div class="row">
-  <div class="column left">column1 <br>
+  <div class="columnone">column1 <br>
     <a href="">link1</a><br>
     <a href="">link2</a><br>
   </div>
-  <div class="column right">column2
+  <div class="columntwo">column2
     
   </div>
 </div>

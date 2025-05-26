@@ -2,33 +2,41 @@
     box-sizing: border-box;
   }
   
-  /* Create two unequal columns that floats next to each other */
-  .column {
+ 
+  .columnone {
     float: left;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
-  
-  .left {
+    height: 8100px;
     width: 25%;
-    background-color: grey;
+    background-color: darkkhaki; 
+    flex-direction: column;
   }
+
   
-  .right {
-    width: 75%;
-    background-color: lightgrey;
+  .columntwo {
+    padding: 10px;
+    height: 8100px;
+    background-color: blueviolet;
+    width: auto;
   }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  a:hover{
-    background-color: aqua;
-    
-  }
-  a{
-    text-decoration: none;
-  }
+
+.links{
+  display: flex;
+  flex-direction: column;
+
+}
+
+table{
+  border-collapse: collapse;
+  border: solid 2px black;
+  background-color: fuchsia;
+}
+td {
+border-collapse: collapse;
+border: solid 2px black;
+
+}
+a{
+  padding: 30px;
+  font-size: large;
+}
